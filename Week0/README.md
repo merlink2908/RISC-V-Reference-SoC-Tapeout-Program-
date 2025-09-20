@@ -30,3 +30,9 @@ sudo apt-get update
 sudo apt-get install iverilog
 
 ![My setup](Capture1.PNG)
+
+gtkwave
+
+sudo apt-get update
+
+sudo apt install gtkwave
