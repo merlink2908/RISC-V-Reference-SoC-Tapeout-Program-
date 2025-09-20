@@ -21,3 +21,10 @@ $ make
 $ sudo make install 
 
 ![My setup](Capture.PNG)
+
+
+iverilog
+
+sudo apt-get update
+
+sudo apt-get install iverilog
