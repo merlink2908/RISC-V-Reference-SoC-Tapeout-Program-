@@ -20,3 +20,4 @@ $ make
 
 $ sudo make install 
 
+![My setup](Capture.png)
