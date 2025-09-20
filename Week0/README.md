@@ -1,6 +1,7 @@
-Tools Installation
+## Tools Installation
 
-Yosys
+# Yosys
+
 $ sudo apt-get update
 
 $ git clone https://github.com/YosysHQ/yosys.git
@@ -23,7 +24,7 @@ $ sudo make install
 ![My setup](Capture.PNG)
 
 
-iverilog
+# iverilog
 
 sudo apt-get update
 
@@ -31,11 +32,12 @@ sudo apt-get install iverilog
 
 ![My setup](Capture1.PNG)
 
-gtkwave
+# gtkwave
 
 sudo apt-get update
 
 sudo apt install gtkwave
 
 ![My setup](Capture2.PNG)
+
 ![My setup](Capture3.PNG)
