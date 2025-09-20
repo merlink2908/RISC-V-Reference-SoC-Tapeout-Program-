@@ -38,3 +38,4 @@ sudo apt-get update
 sudo apt install gtkwave
 
 ![My setup](Capture2.PNG)
+![My setup](Capture3.PNG)
