@@ -20,4 +20,4 @@ $ make
 
 $ sudo make install 
 
-![My setup](Week0/Capture.PNG)
+![My setup](Capture.PNG)
