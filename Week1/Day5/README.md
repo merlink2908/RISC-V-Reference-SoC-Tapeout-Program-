@@ -14,9 +14,11 @@ end
 
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](5icompif.PNG)
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](5incomp2.PNG)
+
+
 
 # Nested If-Else
 
@@ -36,7 +38,7 @@ end
 
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](5incompif.PNG)
 
 ![Setup Screenshot](setup.png)
 
