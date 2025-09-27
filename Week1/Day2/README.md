@@ -16,7 +16,7 @@ module dff_asyncres (input clk, input async_reset, input d, output reg q);
       
 endmodule
 
-![Setup Screenshot]()
+![Setup Screenshot](asyndff.PNG)
 
 ![Setup Screenshot](dffasynreset.PNG)
 
@@ -40,7 +40,7 @@ endmodule
 
 ![Setup Screenshot](dffaynset.PNG)
 
-![Setup Screenshot]()
+![Setup Screenshot](dffasyncset.PNG)
 
 # Synchronous Reset D Flip-Flop
 
