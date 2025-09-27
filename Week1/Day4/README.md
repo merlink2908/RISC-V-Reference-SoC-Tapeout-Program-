@@ -57,4 +57,4 @@ endmodule
 ![Setup Screenshot](4blockingcaveat.PNG)
 
 ![Setup Screenshot](4blockingcaveatyosys.PNG)
-![Setup Screenshot](setup.png)
+![Setup Screenshot](4blockingcaveatglsmismatch.PNG)
