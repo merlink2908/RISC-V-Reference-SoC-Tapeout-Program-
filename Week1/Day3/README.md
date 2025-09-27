@@ -20,7 +20,7 @@ module opt_check2 (input a , input b , output y);
   
 endmodule
 
-![Setup Screenshot](3optcheck.PNG)
+![Setup Screenshot](3optcheckor.PNG)
 
 ## 3) Verilog Code
 
