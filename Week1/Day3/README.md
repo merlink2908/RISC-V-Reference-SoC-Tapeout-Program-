@@ -75,7 +75,7 @@ end
 
 endmodule
 
-![Setup Screenshot](3dffalwaya1.PNG)
+![Setup Screenshot](3dff2alwaya1.PNG)
 
 ![Setup Screenshot](3dffcont2.PNG)
 
