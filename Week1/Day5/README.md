@@ -40,7 +40,7 @@ endmodule
 
 ![Setup Screenshot](5incomp2.PNG)
 
-![Setup Screenshot](5incompcaseyosys.PNG)
+
 
 # Complete Case Statement
 module comp_case (input i0, input i1, input i2, input [1:0] sel, output reg y);
