@@ -88,7 +88,7 @@ always @(*) begin
 end
 
 endmodule
-
+![Setup Screenshot](5incompcase.PNG)
 ![Setup Screenshot](5incompcaseyosys.PNG)
 
 # Partial Assignments in Case
