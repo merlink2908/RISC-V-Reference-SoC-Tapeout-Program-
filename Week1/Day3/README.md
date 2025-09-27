@@ -10,7 +10,7 @@ endmodule
 
 opt_clean -purge:Use it during synthesis to remove unused or redundant objects from the design
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](3optcheck.PNG)
 
 ## 2) Verilog Code
 
@@ -20,7 +20,7 @@ module opt_check2 (input a , input b , output y);
   
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](3optcheck.PNG)
 
 ## 3) Verilog Code
 
@@ -30,7 +30,7 @@ module opt_check2 (input a , input b , output y);
   
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](3optcheck3and.PNG)
 
 ## 4) Verilog Code
 
@@ -51,7 +51,9 @@ end
 
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](3dff1.PNG)
+
+![Setup Screenshot](3dffconst1.PNG)
 
 ## 5) Verilog Code
 
@@ -73,7 +75,9 @@ end
 
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](3dffalwaya1.PNG)
+
+![Setup Screenshot](3dffcont2.PNG)
 
 ## 6) Verilog Code
 
@@ -109,6 +113,6 @@ end
 
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](3dff3.PNG)
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](3dffconst3.PNG)
