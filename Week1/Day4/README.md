@@ -14,6 +14,8 @@ iverilog -v ../my_lib/verilog_model/primitives.v -v ../my_lib/verilog_model/sky1
 
 ![Setup Screenshot](4mux.PNG)
 
+![Setup Screenshot](4glsmux.PNG)
+
 ## Bad MUX
 
 module bad_mux (input i0, input i1, input sel, output reg y);
@@ -36,7 +38,7 @@ endmodule
 
 ![Setup Screenshot](4badmuxglsmismatch.PNG)
 
-![Setup Screenshot](4glsmux.PNG)
+
 
 ##  Blocking Assignment Caveat
 
