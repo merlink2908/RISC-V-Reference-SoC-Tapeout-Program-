@@ -16,7 +16,7 @@ endmodule
 
 ![Setup Screenshot](5icompif.PNG)
 
-![Setup Screenshot](5incomp2.PNG)
+![Setup Screenshot](5incompif.PNG)
 
 
 
@@ -38,9 +38,9 @@ end
 
 endmodule
 
-![Setup Screenshot](5incompif.PNG)
+![Setup Screenshot](5incomp2.PNG)
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](5incompcaseyosys.PNG)
 
 # Complete Case Statement
 module comp_case (input i0, input i1, input i2, input [1:0] sel, output reg y);
@@ -60,9 +60,9 @@ end
 
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](5compcase.PNG)
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](5compcaseyosys.PNG)
 
 # Incomplete Case Handling
 
@@ -89,7 +89,7 @@ end
 
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](5incompcaseyosys.PNG)
 
 # Partial Assignments in Case
 
@@ -127,7 +127,7 @@ end
 
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](partialcase.PNG)
 
 # 4-to-1 MUX Using For Loop
 
@@ -157,7 +157,7 @@ end
 
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](5muxgenerate.PNG)
 
 # 8-to-1 Demux Using Case
 
@@ -200,41 +200,8 @@ end
 
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](5demuxcase.PNG)
 
-# 8-to-1 Demux Using For Loop
-
-module demux_generate (
-    output o0, output o1, output o2, output o3,
-    output o4, output o5, output o6, output o7,
-    input [2:0] sel,
-    input i
-);
-
-reg [7:0] y_int;
-
-assign {o7, o6, o5, o4, o3, o2, o1, o0} = y_int;
-
-integer k;
-
-always @(*) begin
-
-    y_int = 8'b0;
-    
-    for (k = 0; k < 8; k = k + 1) 
-    
-    begin
-    
-        if (k == sel)
-        
-            y_int[k] = i;
-            
-    end
-    
-end
-endmodule
-
-![Setup Screenshot](setup.png)
 
 # 8-bit Ripple Carry Adder with Generate Block
 
@@ -275,4 +242,4 @@ module fa (input a, input b, input c, output co, output sum);
     
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](5rca.PNG)
