@@ -40,7 +40,7 @@ endmodule
 
 ![Setup Screenshot](dffasynreset.PNG)
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](dffaynset.PNG)
 
 # Synchronous Reset D Flip-Flop
 
@@ -60,18 +60,19 @@ module dff_syncres (input clk, input async_reset, input sync_reset, input d, out
       
 endmodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](dffsynreset.PNG)
 
 ![Setup Screenshot](setup.png)
 
 ## Single submodule
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](2submodule.PNG)
 
 ## Hierarchical Synthesis
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](2hierarchy.PNG)
 
 ## Flattened Synthesis
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](
+2flatten.PNG)
