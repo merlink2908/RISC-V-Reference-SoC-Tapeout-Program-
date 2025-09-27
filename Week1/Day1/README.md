@@ -1,6 +1,6 @@
-#GOOD MUX
+# GOOD MUX
 
-##Verilog code
+## Verilog code
 
 module good_mux (input i0, input i1, input sel, output reg y);
 
@@ -20,7 +20,7 @@ end
 
 endmodule
 
-##Commands
+## Commands
 
 iverilog good_mux.v tb_good_mux.v
 
@@ -30,7 +30,7 @@ gtkwave tb_good_mux.vcd
 
 ![Setup Screenshot](setup.png)
 
-##Yosys Commands For Synthesis
+## Yosys Commands For Synthesis
 
 yosys
 
