@@ -28,7 +28,7 @@ iverilog good_mux.v tb_good_mux.v
 
 gtkwave tb_good_mux.vcd
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](1.png)
 
 ## Yosys Commands For Synthesis
 
@@ -44,4 +44,4 @@ abc -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 show
 
-![Setup Screenshot](setup.png)
+![Setup Screenshot](2.png)
