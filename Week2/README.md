@@ -1,4 +1,4 @@
-# BabySoC Project
+# VSDBabySoC Project
 
 This project aims at an open-source System on Chip (SoC) based on RVMYTH, a RISC-V-based processor core. It integrates a Phase-Locked Loop (PLL) for clock generation and control, alongside a 10-bit Digital-to-Analog Converter (DAC) for interfacing with external analog systems. By converting digital signals into analog, this DAC allows BabySoC to communicate with devices that accept analog inputs.
 
@@ -105,4 +105,4 @@ gtkwave pre_synth_sim.vcd
 >  Signals `D[9:0]` and `OUT[9:0]` can be viewed as analog signals in GTKWave by right-clicking the signals and selecting:  
 > `Data Format > Analog > Interpolated`
 
-
+![My setup](Capture.PNG)
