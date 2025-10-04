@@ -105,4 +105,4 @@ gtkwave pre_synth_sim.vcd
 >  Signals `D[9:0]` and `OUT[9:0]` can be viewed as analog signals in GTKWave by right-clicking the signals and selecting:  
 > `Data Format > Analog > Interpolated`
 
-![My setup](Capture.PNG)
+![My setup](finalbabysoc.PNG)
