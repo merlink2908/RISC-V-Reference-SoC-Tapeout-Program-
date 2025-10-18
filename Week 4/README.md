@@ -108,16 +108,16 @@ setplot dc1
 ![My setup](5.idvds.PNG)
 - Id vs VDS curves for different values of VGS for NMOS with w=0.39 l=0.15
 
-![My setup](5.day2vgsid.PNG)
+![My setup](5.day2.PNG)
 - Id vs VGS curves
 
-![My setup](5.day2.PNG)
+![My setup](5.day2vgsid.PNG)
 - Vout vs Vin for CMOS inverter
 
-![My setup](5.day3tran.PNG)
+![My setup](5.voutvinday3.PNG)
 - Transient Analysis waveform
 
-![My setup](.PNG)
+![My setup](5.day3tran.PNG)
 ### Timing Analysis
 
 #### Rise Time Calculation
@@ -127,6 +127,7 @@ setplot dc1
 ![My setup](5.day3risetime.PNG)
 
 ![My setup](5.risetimegraphday3.PNG)
+
 Rise time = $(2.4828-2.1540) \times 10^{-9} = 0.3288 \text{ ns}$
 
 #### Fall Time Calculation
