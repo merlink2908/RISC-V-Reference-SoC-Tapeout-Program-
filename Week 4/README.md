@@ -104,27 +104,35 @@ setplot dc1
 
 ### Characteristic Curves
 - Id vs VDS curves for different values of VGS
-- 
+![My setup](.PNG)
 - Id vs VDS curves for different values of VGS for NMOS with w=0.39 l=0.15
-- 
+![My setup](.PNG)
 - Id vs VGS curves
-- 
+![My setup](.PNG)
 - Vout vs Vin for CMOS inverter
-- 
+![My setup](.PNG)
 - Transient Analysis waveform
-
+![My setup](.PNG)
 ### Timing Analysis
 
 #### Rise Time Calculation
+![My setup](.PNG)
+![My setup](.PNG)
+![My setup](.PNG)
 Rise time = $(2.4828-2.1540) \times 10^{-9} = 0.3288 \text{ ns}$
 
 #### Fall Time Calculation
+![My setup](.PNG)
+![My setup](.PNG)
 Fall time = $(4.3342-4.0486) \times 10^{-9} = 0.2856 \text{ ns}$
 
 ### Noise Margin Calculation
-- $(NM)_h = V_{oh} - V_{ih} = 1.7185 - 0.9781 = 0.7404 \text{ V}$
-- $(NM)_l = V_{il} - V_{ol} = 0.7613 - 0.1074 = 0.6539 \text{ V}$
+![My setup](.PNG)
+![My setup](.PNG)
+- $(NM)_h = V_(oh) - V_(ih) = 1.7185 - 0.9781 = 0.7404 V
+- $(NM)_l = V_(il) - V_(ol) = 0.7613 - 0.1074 = 0.6539 V
 ### Supply Variation
+![My setup](.PNG)
 ## Gain vs Supply Voltage Table
 
 | Curve Name | Corresponding VDD (V) | Calculated Gain (Av) |
@@ -139,3 +147,4 @@ Fall time = $(4.3342-4.0486) \times 10^{-9} = 0.2856 \text{ ns}$
 The gain increased initially as $V_{DD}$ was reduced (from $1.8\text{V}$ to $1.0\text{V}$) due to improved saturation characteristics, and then dropped sharply (at $0.8\text{V}$) because the voltage was no longer high enough to keep the transistors fully functional.
 
 ### Device Variation
+![My setup](.PNG)
