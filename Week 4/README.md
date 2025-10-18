@@ -104,19 +104,19 @@ setplot dc1
 
 ### Characteristic Curves
 - Id vs VDS curves for different values of VGS
-- 
+
 ![My setup](.PNG)
 - Id vs VDS curves for different values of VGS for NMOS with w=0.39 l=0.15
-- 
+
 ![My setup](.PNG)
 - Id vs VGS curves
-- 
+
 ![My setup](.PNG)
 - Vout vs Vin for CMOS inverter
-- 
+
 ![My setup](.PNG)
 - Transient Analysis waveform
-- 
+
 ![My setup](.PNG)
 ### Timing Analysis
 
