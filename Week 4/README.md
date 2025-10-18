@@ -1,3 +1,5 @@
+
+#  MOSFET Analysis
 ## MOSFET Operational Regions
 
 The working of a MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is divided into three main operational regions:
@@ -18,7 +20,7 @@ A reverse bias between the source and the body increases the width of the deplet
 
 ### Forward Bias
 A forward bias ($V_{SB}$ forward biases the source-body junction): A small forward bias tends to decrease the magnitude of the threshold voltage, making the transistor easier to turn on.
-# NMOS and MOSFET Analysis
+
 
 ## NMOS Structural Components
 
@@ -108,7 +110,7 @@ setplot dc1
 - Id vs VDS curves for different values of VGS for NMOS with w=0.39 l=0.15
 
 ![My setup](5.day2.PNG)
-- Id vs VGS curves
+- Id vs VGS curve
 
 ![My setup](5.day2vgsid.PNG)
 - Vout vs Vin for CMOS inverter
