@@ -122,19 +122,19 @@ setplot dc1
 
 #### Rise Time Calculation
 
-![My setup](.PNG)
-
-![My setup](5.day3risetime.PNG)
 
 ![My setup](5.risetimegraphday3.PNG)
+
+![My setup](5.day3risetime.PNG)
 
 Rise time = $(2.4828-2.1540) \times 10^{-9} = 0.3288 \text{ ns}$
 
 #### Fall Time Calculation
 
+![My setup](5.day3fall.PNG)
+
 ![My setup](5.day3falltime.PNG)
 
-![My setup](5.day3fall.PNG)
 Fall time = $(4.3342-4.0486) \times 10^{-9} = 0.2856 \text{ ns}$
 
 ### Noise Margin Calculation
@@ -142,8 +142,9 @@ Fall time = $(4.3342-4.0486) \times 10^{-9} = 0.2856 \text{ ns}$
 ![My setup](5.day4nmwave.PNG)
 
 ![My setup](5.day4nmcalc.PNG)
-- $(NM)_h = V(oh) - V(ih) = 1.7185 - 0.9781 = 0.7404 V
-- $(NM)_l = V(il) - V(ol) = 0.7613 - 0.1074 = 0.6539 V
+
+- (NM)_h = V(oh) - V(ih) = 1.7185 - 0.9781 = 0.7404 V
+- (NM)_l = V(il) - V(ol) = 0.7613 - 0.1074 = 0.6539 V
 ### Supply Variation
 
 ![My setup](5.day5gainpic.PNG)
