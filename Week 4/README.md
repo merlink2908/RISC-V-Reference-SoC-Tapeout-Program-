@@ -162,4 +162,7 @@ Fall time = $(4.3342-4.0486) \times 10^{-9} = 0.2856 \text{ ns}$
 The gain increased initially as $V_{DD}$ was reduced (from $1.8\text{V}$ to $1.0\text{V}$) due to improved saturation characteristics, and then dropped sharply (at $0.8\text{V}$) because the voltage was no longer high enough to keep the transistors fully functional.
 
 ### Device Variation
+
 ![My setup](5.devicevariation.PNG)
+
+Wide PMOS and smallest NMOS is used. The vout vs vin characteristic is observed to be shifted to right. The output switches from low to high very quickly due to the strong PMOS.The output switches from high to low relatively slowly due to the weak NMOS. The swithcing threshold is alomst 0.9 V.
