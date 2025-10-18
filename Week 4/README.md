@@ -1,3 +1,23 @@
+## MOSFET Operational Regions
+
+The working of a MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is divided into three main operational regions:
+
+### 1. Cut-off Region
+The Gate voltage is less than the Threshold Voltage ($V_{TH}$), so no conductive channel is formed between the Source and Drain terminals. The MOSFET acts like an open switch in this region.
+
+### 2. Linear or Ohmic Region
+The Gate voltage is greater than the Threshold Voltage, and $V_{DS} < V_{GS} - V_{TH}$. A channel is formed, and the Drain Current ($I_D$) increases almost linearly with the Drain-Source Voltage ($V_{DS}$). For very small $V_{DS}$ (i.e., $V_{DS} \ll V_{GS} - V_{TH}$), the term $\frac{1}{2} V_{DS}^2$ is negligible, making $I_D$ directly proportional to $V_{DS}$.
+
+### 3. Saturation Region
+$V_{DS} \ge V_{GS} - V_{TH}$ and $V_{GS} > V_{TH}$ in this region. The channel becomes "pinched off" near the drain end. The voltage drop across the conducting part of the channel remains fixed at $V_{GS} - V_{TH}$. Any further increase in $V_{DS}$ is dropped across the pinched-off region, and the current essentially saturates (becomes constant) for a fixed $V_{GS}$.
+
+## Body Effect
+
+### Reverse Bias
+A reverse bias between the source and the body increases the width of the depletion region beneath the channel. To form the conductive channel, the gate must now overcome the charge of this wider depletion region. This requires a larger gate-to-source voltage ($V_{GS}$), which means the threshold voltage ($V_{th}$) increases in magnitude.
+
+### Forward Bias
+A forward bias ($V_{SB}$ forward biases the source-body junction): A small forward bias tends to decrease the magnitude of the threshold voltage, making the transistor easier to turn on.
 # NMOS and MOSFET Analysis
 
 ## NMOS Structural Components
@@ -24,27 +44,6 @@ When a positive voltage ($V_{GS}$) is applied to the Gate, the electric field pe
 If the voltage is high enough (above the threshold voltage, $V_{TH}$), a layer of electrons forms beneath the gate oxide, inverting the p-type surface to an n-type region. This forms a conductive path, called the n-channel, that connects the $\text{n}^+$ source and drain regions.
 
 Once the channel is formed, current (electron flow) can pass from the Source to the Drain.
-
-## MOSFET Operational Regions
-
-The working of a MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is divided into three main operational regions:
-
-### 1. Cut-off Region
-The Gate voltage is less than the Threshold Voltage ($V_{TH}$), so no conductive channel is formed between the Source and Drain terminals. The MOSFET acts like an open switch in this region.
-
-### 2. Linear or Ohmic Region
-The Gate voltage is greater than the Threshold Voltage, and $V_{DS} < V_{GS} - V_{TH}$. A channel is formed, and the Drain Current ($I_D$) increases almost linearly with the Drain-Source Voltage ($V_{DS}$). For very small $V_{DS}$ (i.e., $V_{DS} \ll V_{GS} - V_{TH}$), the term $\frac{1}{2} V_{DS}^2$ is negligible, making $I_D$ directly proportional to $V_{DS}$.
-
-### 3. Saturation Region
-$V_{DS} \ge V_{GS} - V_{TH}$ and $V_{GS} > V_{TH}$ in this region. The channel becomes "pinched off" near the drain end. The voltage drop across the conducting part of the channel remains fixed at $V_{GS} - V_{TH}$. Any further increase in $V_{DS}$ is dropped across the pinched-off region, and the current essentially saturates (becomes constant) for a fixed $V_{GS}$.
-
-## Body Effect
-
-### Reverse Bias
-A reverse bias between the source and the body increases the width of the depletion region beneath the channel. To form the conductive channel, the gate must now overcome the charge of this wider depletion region. This requires a larger gate-to-source voltage ($V_{GS}$), which means the threshold voltage ($V_{th}$) increases in magnitude.
-
-### Forward Bias
-A forward bias ($V_{SB}$ forward biases the source-body junction): A small forward bias tends to decrease the magnitude of the threshold voltage, making the transistor easier to turn on.
 
 ## SPICE Simulation
 
